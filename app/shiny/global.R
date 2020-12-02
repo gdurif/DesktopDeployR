@@ -41,7 +41,7 @@ if(!require("diyabcGUI")) {
     con <- file(logfile)
     latest = readLines(con)
 
-    if(month(as.period(interval(ymd(latest), today()))) > 3){
+    if(month(as.period(interval(ymd(latest), today()))) > 3) {
         install_diyabcGUI()
     }
 }
