@@ -58,7 +58,7 @@ var oDEFAULTS = {
 //' Determine User Home directory
 var sUPath = oShell.ExpandEnvironmentStrings("%USERPROFILE%");
 var sAppUPath = sUPath + "\\." + oConfig.appname;
-var sLogPath = 'log';
+var sLogPath = oShell.ExpandEnvironmentStrings("%TEMP%");;
 if (oConfig.logging.use_userprofile) {
 	var sLogPath = sAppUPath;
 }
