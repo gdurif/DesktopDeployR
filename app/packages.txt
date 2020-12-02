@@ -5,7 +5,80 @@
 # packages need to be installed manually.
 
 # bare miniminum: configurations are stored in json format
-jsonlite
+# jsonlite
 
 # if deploying shiny based applications:
+# shiny
+
+assertthat
+backports
+base64enc
+BH
+callr
+cli
+colorspace
+commonmark
+crayon
+desc
+digest
+dplyr
+ellipsis
+evaluate
+fansi
+farver
+fastmap
+fs
+generics
+ggplot2
+glue
+gtable
+htmltools
+htmlwidgets
+httpuv
+isoband
+jsonlite
+labeling
+later
+lifecycle
+lubridate
+magrittr
+markdown
+mime
+munsell
+pillar
+pkgbuild
+pkgconfig
+pkgload
+praise
+prettyunits
+processx
+promises
+ps
+purrr
+R6
+RColorBrewer
+Rcpp
+rlang
+rprojroot
+rstudioapi
+scales
 shiny
+shinybusy
+shinydashboard
+shinyFiles
+shinyhelper
+shinyjs
+shinyWidgets
+sourcetools
+stringi
+stringr
+testthat
+tibble
+tidyselect
+utf8
+vctrs
+viridisLite
+withr
+xfun
+xtable
+yaml
