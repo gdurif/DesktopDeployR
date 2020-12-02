@@ -21,4 +21,4 @@ if(any(check))
     stop(str_c(
         "error when dowloading: ",
         str_c(rtools_url_list[check], collapse = ", ")
-    )
+    ))
